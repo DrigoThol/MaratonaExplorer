@@ -43,7 +43,7 @@ h1,h2,h3, .price{
   }
  
  header,section{
-    max-width: 65em;
+    max-width: 16em;
     margin: 0 auto;
   }
  
