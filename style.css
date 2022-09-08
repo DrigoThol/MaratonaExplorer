@@ -1,44 +1,49 @@
  /* GLOBAL */
  
- *{
-    margin: 0;
-    padding: 0%;
-  }
- 
-  body{
-   background-color: #FFEDD5;
-   font-family: "Roboto", sans-serif; 
-   background-image: url("https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/11/background-madeira4-1.jpg?resize=696%2C464&ssl=1");
-
+*{
+   margin: 0;
+   padding: 0%;
  } 
+ 
+body{
+   background-color: #ffffff;
+   font-family: "Roboto", sans-serif; 
+   background-image:  url("https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/11/background-madeira4-1.jpg?resize=696%2C464&ssl=1");
+    } 
  
 .geral{
   background-color:#ffffff;
   margin-top: 0%;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 30px;
   border-radius: 30px;
+  padding-bottom: 1rem;
 }
 
  ul { 
    list-style: none;
  }
- 
-  h1,h2,h3, .price{
+
+h1,h2,h3, .price{
      font-family: 'Roboto Serif', serif ;
      text-transform: uppercase;
      color: #2D2C2A;
+    padding-right: 50px;
   }
 
-  
+.price{
+  display: block;
+  text-align: right;
+  } 
+
  header {
-   padding: 32px 0;
+   padding: 0px 0;
     text-align: center;
  }
  
  header,section{
-    max-width: 60%;
+    max-width: 90%;
     margin: 0 auto;
    }
  
@@ -54,7 +59,6 @@
  header p {
    font-size: 14px;
    line-height: 16px;
- 
    color: rgba(0, 0, 0, 0.7);
  }
  
@@ -66,7 +70,6 @@
   background-color: #FED7AA;
   padding: 8px 16px;
   text-align: center;
-  
   margin-bottom: 24px;
   font-size: 18px;
  }
@@ -74,16 +77,18 @@
    ul li{
      margin-bottom: 16px;
      display: flex;
+     justify-content: space-between;
    }
  
- li .details  {
-   maxwidth: 300px;
-   }
+ /*li .details  {
+   max-width: 300px;
+   }*/
  
    .detais h3{
      margin-bottom: 8px;
      font-size: 16px ;
-     line-height: 19px;
+     line-height: 19px;,
+     padding: 60em;
    }
  
    .detaisl p{
